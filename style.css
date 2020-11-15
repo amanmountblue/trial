@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.nav {
+    background-color:#d7dbf0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 18px px;
+	overflow: hidden;
+	position: relative;
+}
+
+.nav li a {
+    display: block;
+    color: rgb(85, 84, 84);
+    padding: 12px;
+	text-decoration: none;
+	padding-top: 17px;
+}
+
+.nav li a:hover {
+    color:  #df9abd;
+    border-radius: 30px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 800;
+    list-style-type: none;
+    margin-top: 80px;
+    padding: 10px 10px;
+	padding-bottom: 80px;
+	background-color:  rgb(245, 241, 241);
+} 
+
+.home h1{
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+.home img {
+    width: 19em;
+    height: 19em;
+    border-radius: 50%;
+}
+
+.about-container {
+	padding: 40px 100px;
+	width: 65%;
+	margin: 1%  auto 20px auto;
+	background-image: url("images/as.jpeg")
+	
+}
+.about-container p {
+    text-align: justify;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #F5F5F5;
+    line-height: 25px;
+}
+
+.about a {
+    color: #ffffff;
+}
+
+.skill-container {
+	padding: 40px 100px;
+	width: 65%;
+	margin: 1%  auto 20px auto;
+	background-image: url("images/as.jpeg")
+}
+
+.skill-container p{
+	text-align: justify;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #F5F5F5;
+    line-height: 25px;
+}
+.skillset{
+	gap: 20px;
+}
+.services {
+    margin-top: 10px;
+    border: 20px;
+    padding: 70px 100px;
+	background-color: rgb(245, 241, 241);
+}
+
+.services h2{
+    color: black;
+    text-align: center;
+	font-size: 50px;
+	margin-top: -50px;
+}
+.contact h2 {
+	color: black;
+    text-align: center;
+	font-size: 50px;
+
+}
+
+.services ul, .contact ul {
+    display: grid;
+    margin: 10px;
+    text-align: center;
+    grid-gap: 20px;
+    grid-auto-flow: column;
+	font-size: 20px;
+	color: white;
+	margin-right: 120px;
+	margin-left: 120px;
+
+}
+.services h2{
+    color: black;
+    text-align: center;
+	font-size: 50px;
+	margin-top: -50px;
+}
+
+.services li {
+    border: 1px solid #ccc;
+    border-radius: 2em;
+	padding: 10px;
+	background-image: url("images/bg.jpeg");
+	
+}
+
+.services li a {
+	padding-top: 20px;
+	color: white;
+}
+
+.services p {
+    margin: 10px;
+    padding: 20px 30px;
+	line-height: 25px;
+	color: white;
+}
+
+
+.contact {
+    margin-top: 10px;
+    padding: 20px 100px;
+    background-color: rgb(245, 241, 241);
+}
+
+@media all and (max-width: 1150px) {
+    .navigation, .intro, .about, .services, .contact {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .skill, .services ul, .contact ul {
+        display: grid;
+        margin: 5px;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        grid-auto-flow: dense;
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 750px) {
+
+    .nav, .home {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       flex-direction: column;
+       gap: 10px;
+       margin: 0px;
+       border: 0px;
+       padding: 5px;
+	}
+
+    .home img {
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 13em;
+        height: 11em;
+		border-radius: 50%;
+	}
+
+    .home h1 {
+        padding-top: 10px;
+    }
+
+    .about-container, .about-container p {
+        padding: 10px 20px;
+    }
+
+    .services {
+        padding: 10px 10px;
+	}
+	.skill-container, .skill-container p {
+        padding: 10px 20px;
+	}
+	.services h2{
+		margin-top: 10px;
+	}
+
+    .skill, .services ul, .contact ul {
+        padding: 10px;
+        display: grid;
+        margin: 5px;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        grid-auto-flow: dense;
+        font-size: 20px;
+    }
+
+    .services p {
+        margin: 5px;
+        padding: 10px 10px;
+        line-height: 25px;
+    }
+}
