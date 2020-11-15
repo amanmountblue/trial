@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Josefin Sans', sans-serif;
-    
-}
 
 .nav {
     background-color:#d7dbf0;
@@ -22,6 +18,7 @@ body {
     padding: 18px px;
 	overflow: hidden;
 	position: relative;
+
 }
 
 .nav li a {
@@ -63,7 +60,6 @@ body {
 
 .about-container {
 	padding: 40px 100px;
-	width: 65%;
 	margin: 1%  auto 20px auto;
 	background-image: url("images/as.jpeg")
 	
@@ -83,7 +79,6 @@ body {
 
 .skill-container {
 	padding: 40px 100px;
-	width: 65%;
 	margin: 1%  auto 20px auto;
 	background-image: url("images/as.jpeg")
 }
@@ -101,22 +96,20 @@ body {
 .services {
     margin-top: 10px;
     border: 10px;
-	width: 65%;
 	padding: 40px;
-	width: 65%;
 	margin: 1%  auto 20px auto;
 	margin-top: 20px;
 	padding-top: 50px;
+	background-image: url("images/light1.jpg");
 }
 .contact{
 	margin-top: 10px;
     border: 20px;
     padding: 70px 100px;
-	background-color: rgb(247, 244, 244);
-	width: 65%;
 	padding: 40px 100px;
 	margin: 1%  auto 20px auto;
 	margin-top: -20px;
+	background-image: url("images/light2.jpeg");
 }
 
 .contact h2 {
@@ -133,7 +126,6 @@ body {
     grid-gap: 70px;
     grid-auto-flow: column;
 	font-size: 20px;
-	padding-right: 130px;
 	padding-top: 30px;
 
 }
@@ -186,7 +178,7 @@ body {
     background-color:white;
 }
 
-@media all and (max-width: 1150px) {
+@media all and (max-width: 1250px) {
     .navigation, .intro, .about, .services, .contact {
         padding-left: 80px;
         padding-right: 80px;
