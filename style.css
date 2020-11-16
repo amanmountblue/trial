@@ -13,20 +13,21 @@
     justify-content: center;
     gap: 130px;
     flex-direction: row;
-    font-size: 18px;
-    font-weight: 800;
-    padding: 18px px;
+    font-size: 25px;
+    font-weight: 1000;
+    padding: 18px 10px;
 	overflow: hidden;
-	position: relative;
+    position: relative;
+    font-style: bold;
 
 }
 
 .nav li a {
     display: block;
-    color: rgb(85, 84, 84);
+    color: rgb(2, 2, 2);
     padding: 12px;
 	text-decoration: none;
-	padding-top: 17px;
+    padding-top: 17px;
 }
 
 .nav li a:hover {
@@ -96,7 +97,7 @@
 .services {
     margin-top: 10px;
     border: 10px;
-	padding: 40px;
+    padding: 10px 30px;
 	margin: 1%  auto 20px auto;
 	margin-top: 20px;
 	padding-top: 50px;
@@ -105,8 +106,7 @@
 .contact{
 	margin-top: 10px;
     border: 20px;
-    padding: 70px 100px;
-	padding: 40px 100px;
+    padding: 10px 30px;
 	margin: 1%  auto 20px auto;
 	margin-top: -20px;
 	background-image: url("images/light2.jpeg");
@@ -126,7 +126,9 @@
     grid-gap: 70px;
     grid-auto-flow: column;
 	font-size: 20px;
-	padding-top: 30px;
+    margin: 1%  auto 20px auto;
+    margin-right: 91px;
+    margin-left: 91px;
 
 }
 .contact ul {
